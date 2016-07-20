@@ -14,7 +14,7 @@
     <script type="text/javascript" src="./js/jquery-2.1.1.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript" src="./js/jquery.mobile-1.4.3.js"></script>
-    <script type="text/javascript" src="js/todo.js"></script>
+    
     <script type="text/javascript" src="cordova.js"></script>
     
 </head>
@@ -22,16 +22,20 @@
 <body>
     <div data-role="page">
         <div data-role="header" data-theme="b">
-            <h1>Monkey Do </h1>
+            <h1>Monkey See...</h1>
         </div><!-- /header -->
 
         <div data-role="content" data-theme="b">
         	<div class="ui-field-contain">
+        		
         		<label for="text-1">Add Task Here</label>
-        		<input name="text-1" data-clear-btn="true"
-        			id="taskName" value="" placeholder="Enter Task" data-theme="b" type="text" />
+        		
+        		<input name="text-1" data-clear-btn="true" id="taskName" value="" placeholder="Enter Task" data-theme="b" type="text" />
         	</div>
+        	
         	<button id="add">Add your Task Here</button>
+        	<hr>
+        	<h1>Monkey Do!!!</h1>
         	<div id="taskList"></div>
         </div><!-- /content -->
 
@@ -39,5 +43,7 @@
             <h4>Footer content</h4>
         </div><!-- /footer -->
     </div><!-- /page -->
+    
+    <script type="text/javascript" src="js/todo.js"></script>
 </body>
 </html>
